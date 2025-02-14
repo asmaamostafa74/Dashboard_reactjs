@@ -1,4 +1,4 @@
-const Tables = () => {
+const SignIn = () => {
     return (
         <div>
 
@@ -6,4 +6,4 @@ const Tables = () => {
     )
 }
 
-export default Tables
+export default SignIn

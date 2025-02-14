@@ -1,4 +1,4 @@
-const Tables = () => {
+const Profile = () => {
     return (
         <div>
 
@@ -6,4 +6,4 @@ const Tables = () => {
     )
 }
 
-export default Tables
+export default Profile

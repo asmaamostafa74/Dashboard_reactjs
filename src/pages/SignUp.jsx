@@ -1,4 +1,5 @@
-const Tables = () => {
+
+const SignUp = () => {
     return (
         <div>
 
@@ -6,4 +7,4 @@ const Tables = () => {
     )
 }
 
-export default Tables
+export default SignUp

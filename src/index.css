@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@media (width >= 767px) {
+    aside a.active{
+        background-color: white;
+    }
+}
+
+aside a.active svg {
+    background-color: #4FD1C5;
+    color: white;
+}
+aside a svg {
+    background-color: #fff;
+    color: #4FD1C5;
+}

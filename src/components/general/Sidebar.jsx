@@ -31,7 +31,7 @@ const Sidebar = () => {
           </NavLink>
         </div>
       </div>
-      <h2 className="flex items-center justify-center uppercase text-[#2D3748] text-xs font-bold">Account Pages</h2>
+      <h2 className="md:flex items-center justify-center uppercase text-[#2D3748] text-xs font-bold hidden">Account Pages</h2>
       <div className="flex flex-col gap-4 px-3 py-3 md:px-5 md:py-5">
         <div>
           <NavLink to='/profile' className="flex items-center justify-center md:justify-start gap-2 rounded-[15px] h-[54px] md:px-4">

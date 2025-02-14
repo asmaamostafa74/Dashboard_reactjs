@@ -10,7 +10,7 @@ const PathName = () => {
             <p className="text-gray-400">
                 Pages / <span className="capitalize text-black">{location.pathname.split("/")[1]}</span>
             </p>
-            <div className="flex items-center gap-5">
+            <div className="md:flex hidden items-center gap-5">
                 <form className="w-[250px] mx-auto">
                     <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only">Search</label>
                     <div className="relative">

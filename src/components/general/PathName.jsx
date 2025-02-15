@@ -6,7 +6,7 @@ import { useLocation } from "react-router"
 const PathName = () => {
     const location = useLocation()
     return (
-        <div className="flex items-center justify-between">
+        <div className="container mx-auto flex items-center justify-between">
             <p className="text-gray-400">
                 Pages / <span className="capitalize text-black">{location.pathname.split("/")[1]}</span>
             </p>

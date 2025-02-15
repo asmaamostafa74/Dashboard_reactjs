@@ -1,9 +1,20 @@
 import { BsCreditCardFill } from "react-icons/bs"
+import { useState, useEffect } from "react"
 import { IoIosSettings } from "react-icons/io"
 import { IoHome, IoStatsChart } from "react-icons/io5"
 import { NavLink } from "react-router"
 import logo from "../../assets/images/logo-creative-tim-black.svg"
 const Sidebar = () => {
+  const [isRTL, setIsRTL] = useState(localStorage.getItem("direction") === "rtl");
+
+  useEffect(() => {
+    document.documentElement.setAttribute("dir", isRTL ? "rtl" : "ltr");
+    localStorage.setItem("direction", isRTL ? "rtl" : "ltr");
+  }, [isRTL]);
+
+  const toggleDirection = () => {
+    setIsRTL((prev) => !prev);
+  };
   return (
     <aside className="sidebar w-[90px] md:w-[246px] h-screen bg-[#F8F9FA]">
       <div className="flex items-center justify-center flex-col md:flex-row gap-3 p-3">
@@ -25,10 +36,10 @@ const Sidebar = () => {
             <BsCreditCardFill className="p-2 rounded-full" size={35} />
             <p className="hidden md:block text-[#A0AEC0]">Billing</p>
           </NavLink>
-          <NavLink to='/' className="flex items-center justify-center md:justify-start gap-2 rounded-[15px] h-[54px] md:px-4">
-            <IoIosSettings className="p-2 rounded-full" size={35} />
-            <p className="hidden md:block text-[#A0AEC0]">RTL</p>
-          </NavLink>
+          <div to="#" className="flex items-center justify-center md:justify-start gap-2 rounded-[15px] h-[54px] md:px-4 cursor-pointer" onClick={toggleDirection}>
+            <IoIosSettings className="p-2 rounded-full text-[#4fd1c5]" size={35} />
+            <p className="hidden md:block text-[#A0AEC0]">{isRTL ? "LTR" : "RTL"}</p>
+          </div>
         </div>
       </div>
       <h2 className="md:flex items-center justify-center uppercase text-[#2D3748] text-xs font-bold hidden">Account Pages</h2>

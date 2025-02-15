@@ -1,5 +1,4 @@
 @import "tailwindcss";
-
 @media (width >= 767px) {
   aside a.active {
     background-color: white;

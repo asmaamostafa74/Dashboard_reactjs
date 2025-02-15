@@ -17,7 +17,7 @@ const Sidebar = () => {
     setIsRTL((prev) => !prev);
   };
   return (
-    <aside className="sidebar w-[90px] md:w-[246px] h-screen bg-[#F8F9FA]">
+    <aside className="sidebar w-[70px] md:w-[246px] h-screen bg-[#F8F9FA]">
       <div className="flex items-center justify-center flex-col md:flex-row gap-3 p-3">
         <img src={logo} alt="Logo" />
         <h1 className="hidden md:block text-center text-sm md:text-xl font-medium">UI Dashboard</h1>

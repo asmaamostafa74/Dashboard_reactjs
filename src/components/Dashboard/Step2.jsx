@@ -7,7 +7,7 @@ const Step2 = () => {
     return (
         <div className="flex flex-wrap gap-2 mt-5">
             <div>
-                <div className="flex lg:flex-row flex-col items-center justify-between lg:w-[600px] md:h-[290px] bg-white rounded-[25px] p-5">
+                <div className="flex lg:flex-row flex-col items-center justify-between lg:w-[922px] md:h-[290px] bg-white rounded-[25px] p-5">
                     <div className>
                         <p className="text-[#A0AEC0] text-xs font-bold">Built by developers</p>
                         <h2 className="text-lg text-[#2D3748] font-bold">Purity UI Dashboard</h2>
@@ -19,7 +19,7 @@ const Step2 = () => {
                             </Link>
                         </div>
                     </div>
-                    <img src={image} className="w-[220px]" alt="Image" />
+                    <img src={image} alt="Image" />
                 </div>
             </div>
             <div className="md:w-[600px] md:h-[290.5px] p-5 flex items-center justify-center bg-white rounded-[25px]">

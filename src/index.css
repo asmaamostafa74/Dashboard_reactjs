@@ -13,3 +13,9 @@ aside a svg {
   background-color: #fff;
   color: #4fd1c5;
 }
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  display: none;
+}

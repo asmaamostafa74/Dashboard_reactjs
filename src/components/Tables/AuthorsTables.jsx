@@ -1,3 +1,4 @@
+import profile from '../../assets/images/alexa.svg'
 const AuthorsTables = () => {
     return (
         <div className="mt-5 container mx-auto">
@@ -29,8 +30,12 @@ const AuthorsTables = () => {
                         </thead>
                         <tbody>
                             <tr className="bg-white border-b border-gray-200">
-                                <th scope="row" className="flex items-center gap-2 px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
-                                    <p>Chakra Soft UI Version</p>
+                                <th scope="row" className="flex gap-2 px-6 py-4 whitespace-nowrap">
+                                    <img src={profile} className='w-14 h-14' alt="Image" />
+                                    <div>
+                                        <h1 className='text-[#2D3748] text-xl font-medium'>Asmaa Mostafa</h1>
+                                        <p className='text-[#718096]'>asmaamostafa@gmail.com</p>
+                                    </div>
                                 </th>
                                 <td className="px-6 py-4">
                                     <div className=''>
@@ -39,7 +44,7 @@ const AuthorsTables = () => {
                                     </div>
                                 </td>
                                 <td className="px-6 py-4 ">
-                                    <div className="flex items-center justify-center bg-[#48BB78] w-[65px] h-[25px] rounded-lg text-white">
+                                    <div className="flex items-center justify-center bg-[#CBD5E0] w-[65px] h-[25px] rounded-lg text-white">
                                         Online
                                     </div>
                                 </td>
@@ -51,8 +56,12 @@ const AuthorsTables = () => {
                                 </td>
                             </tr>
                             <tr className="bg-white border-b border-gray-200">
-                                <th scope="row" className="flex items-center gap-2 px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
-                                    <p>Add Progrss Track</p>
+                                <th scope="row" className="flex gap-2 px-6 py-4 whitespace-nowrap">
+                                    <img src={profile} className='w-14 h-14' alt="Image" />
+                                    <div>
+                                        <h1 className='text-[#2D3748] text-xl font-medium'>Asmaa Mostafa</h1>
+                                        <p className='text-[#718096]'>asmaamostafa@gmail.com</p>
+                                    </div>
                                 </th>
                                 <td className="px-6 py-4">
                                     <div className=''>
@@ -73,8 +82,12 @@ const AuthorsTables = () => {
                                 </td>
                             </tr>
                             <tr className="bg-white border-b border-gray-200">
-                                <th scope="row" className="flex items-center gap-2 px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
-                                    <p>Fix Platform Errors</p>
+                                <th scope="row" className="flex gap-2 px-6 py-4 whitespace-nowrap">
+                                    <img src={profile} className='w-14 h-14' alt="Image" />
+                                    <div>
+                                        <h1 className='text-[#2D3748] text-xl font-medium'>Asmaa Mostafa</h1>
+                                        <p className='text-[#718096]'>asmaamostafa@gmail.com</p>
+                                    </div>
                                 </th>
                                 <td className="px-6 py-4">
                                     <div className=''>
@@ -83,7 +96,7 @@ const AuthorsTables = () => {
                                     </div>
                                 </td>
                                 <td className="px-6 py-4 ">
-                                    <div className="flex items-center justify-center bg-[#48BB78] w-[65px] h-[25px] rounded-lg text-white">
+                                    <div className="flex items-center justify-center bg-[#CBD5E0] w-[65px] h-[25px] rounded-lg text-white">
                                         Online
                                     </div>
                                 </td>
@@ -95,8 +108,12 @@ const AuthorsTables = () => {
                                 </td>
                             </tr>
                             <tr className="bg-white border-b border-gray-200">
-                                <th scope="row" className="flex items-center gap-2 px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
-                                    <p>Lanuch Mobile App</p>
+                                <th scope="row" className="flex gap-2 px-6 py-4 whitespace-nowrap">
+                                    <img src={profile} className='w-14 h-14' alt="Image" />
+                                    <div>
+                                        <h1 className='text-[#2D3748] text-xl font-medium'>Asmaa Mostafa</h1>
+                                        <p className='text-[#718096]'>asmaamostafa@gmail.com</p>
+                                    </div>
                                 </th>
                                 <td className="px-6 py-4">
                                     <div className=''>
@@ -117,8 +134,12 @@ const AuthorsTables = () => {
                                 </td>
                             </tr>
                             <tr className="bg-white border-b border-gray-200">
-                                <th scope="row" className="flex items-center gap-2 px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
-                                    <p>Add The New Price Page</p>
+                                <th scope="row" className="flex gap-2 px-6 py-4 whitespace-nowrap">
+                                    <img src={profile} className='w-14 h-14' alt="Image" />
+                                    <div>
+                                        <h1 className='text-[#2D3748] text-xl font-medium'>Asmaa Mostafa</h1>
+                                        <p className='text-[#718096]'>asmaamostafa@gmail.com</p>
+                                    </div>
                                 </th>
                                 <td className="px-6 py-4">
                                     <div className=''>
@@ -127,7 +148,7 @@ const AuthorsTables = () => {
                                     </div>
                                 </td>
                                 <td className="px-6 py-4 ">
-                                    <div className="flex items-center justify-center bg-[#48BB78] w-[65px] h-[25px] rounded-lg text-white">
+                                    <div className="flex items-center justify-center bg-[#CBD5E0] w-[65px] h-[25px] rounded-lg text-white">
                                         Online
                                     </div>
                                 </td>
@@ -139,8 +160,12 @@ const AuthorsTables = () => {
                                 </td>
                             </tr>
                             <tr className="bg-white">
-                                <th scope="row" className="flex items-center gap-2 px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
-                                    <p>Redesign New Online Shop</p>
+                                <th scope="row" className="flex gap-2 px-6 py-4 whitespace-nowrap">
+                                    <img src={profile} className='w-14 h-14' alt="Image" />
+                                    <div>
+                                        <h1 className='text-[#2D3748] text-xl font-medium'>Asmaa Mostafa</h1>
+                                        <p className='text-[#718096]'>asmaamostafa@gmail.com</p>
+                                    </div>
                                 </th>
                                 <td className="px-6 py-4">
                                     <div className=''>

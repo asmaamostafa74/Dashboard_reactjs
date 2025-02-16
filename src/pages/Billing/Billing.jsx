@@ -1,9 +1,8 @@
-const Tables = () => {
+const Billing = () => {
     return (
         <div>
-
         </div>
     )
 }
 
-export default Tables
+export default Billing

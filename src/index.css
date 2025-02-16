@@ -19,3 +19,37 @@ aside a svg {
   height: 0px;
   display: none;
 }
+
+@font-face {
+  font-family: "DIN Next LT Arabic";
+
+  src: url("./src/fonts/DINNextLTArabic-Bold-4.ttf");
+
+  font-weight: 700;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DIN Next LT Arabic";
+
+  src: url("./src/fonts/DINNextLTArabic-Medium-3.ttf");
+
+  font-weight: 500;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DIN Next LT Arabic";
+
+  src: url("./src/fonts/DINNextLTArabic-Regular-3.ttf");
+
+  font-weight: 400;
+
+  font-style: normal;
+}
+
+body {
+  font-family: "DIN Next LT Arabic", sans-serif;
+}

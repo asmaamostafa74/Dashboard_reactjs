@@ -25,7 +25,7 @@ const Step4 = () => {
                 </div>
 
                 <div className="relative overflow-x-auto">
-                    <table className="w-full text-sm text-left rtl:text-right text-gray-500">
+                    <table className="w-full text-sm text-left rtl:text-right text-gray-500 overflow-auto">
                         <thead className="text-xs text-gray-700 uppercase">
                             <tr>
                                 <th scope="col" className="px-6 py-3 text-[#A0AEC0]">

@@ -42,7 +42,7 @@ const Sidebar = () => {
       <div className="h-px w-44 bg-gray-100 mx-auto"></div>
       <div className="flex flex-col gap-4 px-3 py-3 md:px-5 md:py-5">
         <div>
-          <NavLink to='dashboard' className="flex items-center justify-center md:justify-start gap-2 rounded-[15px] h-[54px] md:px-4">
+          <NavLink to='/' className="flex items-center justify-center md:justify-start gap-2 rounded-[15px] h-[54px] md:px-4">
             <IoHome className="p-2 rounded-full" size={35} />
             <p className="hidden md:block text-[#A0AEC0]">{t('welcome')}</p>
           </NavLink>

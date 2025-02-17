@@ -2,7 +2,7 @@ import profile from '../../assets/images/alexa.svg'
 const AuthorsTables = () => {
     return (
         <div className="mt-5 container mx-auto">
-            <div className="w-full h-[519px] bg-white rounded-[25px]">
+            <div className="w-full h-[580px] overflow-auto bg-white rounded-[25px]">
                 <div className='px-6 py-5'>
                     <h2 className="text-[#2D3748] text-lg font-bold">Authors Table</h2>
                 </div>
@@ -123,6 +123,32 @@ const AuthorsTables = () => {
                                 </td>
                                 <td className="px-6 py-4 ">
                                     <div className="flex items-center justify-center bg-[#48BB78] w-[65px] h-[25px] rounded-lg text-white">
+                                        Online
+                                    </div>
+                                </td>
+                                <td className="px-6 py-4">
+                                    14/06/24
+                                </td>
+                                <td className="px-6 font-bold cursor-pointer">
+                                    Edit
+                                </td>
+                            </tr>
+                            <tr className="bg-white border-b border-gray-200">
+                                <th scope="row" className="flex gap-2 px-6 py-4 whitespace-nowrap">
+                                    <img src={profile} className='w-14 h-14' alt="Image" />
+                                    <div>
+                                        <h1 className='text-[#2D3748] text-xl font-medium'>Asmaa Mostafa</h1>
+                                        <p className='text-[#718096]'>asmaamostafa@gmail.com</p>
+                                    </div>
+                                </th>
+                                <td className="px-6 py-4">
+                                    <div className=''>
+                                        <h1 className="text-[#2D3748] font-bold text-xl">Programmer</h1>
+                                        <p className="text-[#718096] text-sm">Developer</p>
+                                    </div>
+                                </td>
+                                <td className="px-6 py-4 ">
+                                    <div className="flex items-center justify-center bg-[#CBD5E0] w-[65px] h-[25px] rounded-lg text-white">
                                         Online
                                     </div>
                                 </td>

@@ -1,8 +1,11 @@
 import profile from '../../assets/images/alexa.svg'
+
+import ProjectsTable from '../general/ProjectsTable'
+
 const AuthorsTables = () => {
     return (
         <div className="mt-5 container mx-auto">
-            <div className="w-full h-[580px] overflow-auto bg-white rounded-[25px]">
+            <div className="w-full overflow-auto bg-white rounded-[25px]">
                 <div className='px-6 py-5'>
                     <h2 className="text-[#2D3748] text-lg font-bold">Authors Table</h2>
                 </div>
@@ -215,6 +218,8 @@ const AuthorsTables = () => {
                     </table>
                 </div>
             </div>
+
+            <ProjectsTable />
         </div>
     )
 }

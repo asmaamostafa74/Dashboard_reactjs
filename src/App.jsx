@@ -3,7 +3,7 @@ import './App.css'
 import DashboradLayout from './pages/DashboradLayout'
 import Billing from './pages/Billing/Billing.jsx'
 import Tables from "./pages/Tables/Tables.jsx";
-import Profile from "./pages/Profile.jsx";
+import Profile from "./pages/Profile/Profile.jsx";
 import SignIn from "./pages/SignIn.jsx";
 import SignUp from "./pages/SignUp.jsx";
 import Dashboard from "./pages/Dashboard/Dashboard.jsx";

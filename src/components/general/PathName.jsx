@@ -7,12 +7,13 @@ const PathName = () => {
     const { t } = useTranslation();
     const location = useLocation()
     return (
-        <div className="container mx-auto flex items-center justify-between">
-            <p className="text-gray-400">
-                {t('pages')} / <span className="capitalize text-black">
+        <div className="container mx-auto flex items-center justify-between relative z-50">
+            <p className={`text-gray-400 ${location.pathname === "/profile" ? "text-white" : ""}`}>
+                {t('pages')} / <span className={`capitalize ${location.pathname === "/profile" ? "text-white" : "text-black"}`}>
                     {location.pathname === "/" ? "dashboard" : location.pathname.split("/")[1]}
                 </span>
             </p>
+
             <div className="flex items-center gap-5">
                 <form className="md:block hidden w-[250px] mx-auto">
                     <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only">Search</label>
@@ -23,12 +24,15 @@ const PathName = () => {
                         <input type="search" id="default-search" className="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-[25px] bg-white focus:ring-0 focus:outline-0" placeholder={t('typeHere')} required />
                     </div>
                 </form>
-                <NavLink to='/signIn' className="flex items-center gap-1">
-                    <FaUser className="text-[#718096]" />
-                    <p className="md:block hidden text-[#718096]">{t('signIn')}</p>
+                <NavLink to='/signIn' className={`flex items-center gap-1 ${location.pathname === "/profile" ? "text-white" : "text-[#718096]"}`}>
+                    <FaUser className={`${location.pathname === "/profile" ? "text-white" : "text-[#718096]"}`} />
+                    <p className={`md:block hidden ${location.pathname === "/profile" ? "text-white" : "text-[#718096]"}`}>
+                        {t('signIn')}
+                    </p>
                 </NavLink>
-                <IoMdSettings className="text-[#718096]" />
-                <IoIosNotifications className="text-[#718096]" />
+                <IoMdSettings className={`${location.pathname === "/profile" ? "text-white" : "text-[#718096]"}`} />
+                <IoIosNotifications className={`${location.pathname === "/profile" ? "text-white" : "text-[#718096]"}`} />
+
             </div>
         </div>
     )

@@ -26,7 +26,7 @@ const SignIn = () => {
     return (
         <div className='mx-auto flex items-center justify-between overflow-hidden max-h-[100vh]'>
             <div className='flex flex-col mx-auto'>
-                <NavLink to='/Dashboard' className='flex items-center gap-2 mb-10 text-gray-400'>
+                <NavLink to='/' className='flex items-center gap-2 mb-10 text-gray-400'>
                     <IoIosArrowBack />
                     <p>Back to dashboard</p>
                 </NavLink>

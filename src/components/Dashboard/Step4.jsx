@@ -25,7 +25,7 @@ const Step4 = () => {
                 </div>
 
                 <div className="relative overflow-x-auto">
-                    <table className="w-full text-sm text-left rtl:text-right text-gray-500">
+                    <table className="w-full text-sm text-left rtl:text-right text-gray-500 overflow-auto">
                         <thead className="text-xs text-gray-700 uppercase">
                             <tr>
                                 <th scope="col" className="px-6 py-3 text-[#A0AEC0]">
@@ -192,7 +192,7 @@ const Step4 = () => {
                 </div>
             </div>
 
-            <div className='md:w-[519px] h-[519px] bg-white rounded-[25px] p-5'>
+            <div className='md:w-[519px] md:h-[519px] bg-white rounded-[25px] p-5'>
                 <h2 className="text-[#2D3748] text-lg font-bold">Orders Overview</h2>
                 <p className='text-[#68D391] font-bold text-sm'>+30% <span className='text-[#A0AEC0] font-normal'>this month</span></p>
                 <div className="mt-6 grow sm:mt-8 lg:mt-0">

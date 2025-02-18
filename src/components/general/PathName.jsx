@@ -9,7 +9,9 @@ const PathName = () => {
     return (
         <div className="container mx-auto flex items-center justify-between">
             <p className="text-gray-400">
-                {t('pages')} / <span className="capitalize text-black">{location.pathname.split("/")[1]}</span>
+                {t('pages')} / <span className="capitalize text-black">
+                    {location.pathname === "/" ? "dashboard" : location.pathname.split("/")[1]}
+                </span>
             </p>
             <div className="flex items-center gap-5">
                 <form className="md:block hidden w-[250px] mx-auto">

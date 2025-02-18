@@ -5,7 +5,7 @@ import sImage from '../../assets/images/brooke-cagle.webp'
 
 const Step2 = () => {
     return (
-        <div className="flex flex-wrap gap-2 mt-5">
+        <div className="flex flex-wrap gap-2 mt-5 animate__animated animate__backInDown">
             <div className="flex lg:flex-row flex-col items-center justify-between lg:w-[922px] md:h-[290px] bg-white rounded-[25px] p-5">
                 <div className>
                     <p className="text-[#A0AEC0] text-xs font-bold">Built by developers</p>

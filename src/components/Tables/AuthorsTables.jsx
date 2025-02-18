@@ -4,7 +4,7 @@ import ProjectsTable from '../general/ProjectsTable'
 
 const AuthorsTables = () => {
     return (
-        <div className="mt-5 container mx-auto">
+        <div className="mt-5 container mx-auto animate__animated animate__fadeIn">
             <div className="w-full overflow-auto bg-white rounded-[25px]">
                 <div className='px-6 py-5'>
                     <h2 className="text-[#2D3748] text-lg font-bold">Authors Table</h2>

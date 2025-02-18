@@ -7,7 +7,7 @@ import xd from '../../assets/images/xd.svg'
 import ProjectsTable from '../general/ProjectsTable'
 const Step4 = () => {
     return (
-        <div className="flex lg:flex-row flex-col gap-4">
+        <div className="flex lg:flex-row flex-col gap-4 animate__animated animate__backInUp">
             <ProjectsTable />
 
             <div className='md:w-[519px] md:h-[519px] bg-white rounded-[25px] p-5 mt-5'>

@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "animate.css";
 @media (width >= 767px) {
   aside a.active {
     background-color: white;

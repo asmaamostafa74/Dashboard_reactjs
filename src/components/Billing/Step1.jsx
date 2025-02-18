@@ -11,7 +11,7 @@ const Step1 = () => {
     });
 
     return (
-        <section className="flex xl:flex-row flex-col gap-6 relative mt-5">
+        <section className="flex xl:flex-row flex-col gap-6 relative mt-5 animate__animated animate__slideInDown">
             <div>
                 <div className='flex flex-wrap gap-6'>
                     <section>
